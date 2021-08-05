@@ -59,9 +59,9 @@ typings/
 # dotenv environment variables file
 .env
 
-build/
-build-storybook/
-.serverless
+# build/
+# build-storybook/
+# .serverless
 
 # production
 # /build
