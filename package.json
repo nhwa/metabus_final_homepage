@@ -45,7 +45,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:storybook": "build-storybook -o build-storybook",
-    "postbuild": "react-snap",
+    "postbuild": "cp build/index.html build/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
