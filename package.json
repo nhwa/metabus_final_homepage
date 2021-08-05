@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://nhwa.github.io/metabus_final_homepage/",
+  "homepage": "https://nhwa.github.io/metabus_final_homepage",
   "description": "Metabus site",
   "author": "metabus",
   "devDependencies": {

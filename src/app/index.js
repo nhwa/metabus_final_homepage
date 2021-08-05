@@ -47,7 +47,7 @@ const App = () => {
   return (
     <AppContext.Provider value={{ ...state, dispatch }}>
       <ThemeProvider themeId={state.theme}>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <AppRoutes />
         </BrowserRouter>
       </ThemeProvider>
