@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#111111" />
+    <meta name="author" content="metabus" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.svg" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-256.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="549" />
+
+    <meta property="og:title" content="METABUS" />
+    <meta property="og:site_name" content="metabusx.com" />
+    <meta property="og:url" content="https://metabusx.com" />
+    <meta property="og:description" content="we are alive" />
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5983877571a3cd965fc89fcc938378c4&libraries=services"
+    ></script>
+  </head>
+
+  <body>
+    <script>
+      const preferredTheme = JSON.parse(localStorage.getItem('theme'));
+      document.body.className = preferredTheme || 'dark';
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
